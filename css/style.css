@@ -1,0 +1,39 @@
+.link-button{
+    text-decoration: none;
+   background-image: linear-gradient(orange , tomato);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+#color{
+    color: blue;
+    font-size: 50px;
+}
+.header
+{
+	width:100%;
+	background-color:navy;
+	color:white;
+	margin-top:0;
+	padding-top:3%;
+	padding-bottom:3%;
+	font-size:15px;
+}
+h1
+{
+	margin:0;
+	text-align:center;
+	font-family: 'Amaranth', sans-serif;
+	text-shadow: 3px 3px 6px black;
+    font-size: 50px;
+}
+
+footer{
+    text-align: center;
+    font-size: larger;
+}
+.form{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
