@@ -28,6 +28,9 @@ h1
 	text-shadow: 3px 3px 6px black;
     font-size: 50px;
 }
+h2{
+    text-align: center;
+}
 
 footer{
     text-align: center;
@@ -36,4 +39,24 @@ footer{
 .form{
     margin-top: 50px;
     margin-bottom: 50px;
+}
+.wrapper{
+    width:60%;
+    margin:  0 auto;
+    border: 5px solid #ddd;
+    background-color: aqua
+    
+}
+.first-name{
+    width: 90%;
+    height: 27px;
+    padding: 10px;
+    font-size: 18px;
+}
+label{
+    font-size: 25px;
+}
+.massage{
+    font-size: 18px;
+   
 }

@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="css/style.css">
-    <title>Home</title>
-   
+    <title>Home </title>
+    <link rel="icon" type="image" href="img/favicon.ico">
 </head>
 
 <body>
@@ -215,14 +215,6 @@
 
 </div>
 
-
-<!-- object element is a container for external resources (image,audio,video) -->
-<object data="images/train.jpg" type="image/jpg" width="300px" height="300px"></object>
-<object data="videos/movie.mp4" type="video/mp4">
-     <!-- param elements used to define parameters for an object -->
-     <param name="autoplay" value="false">
-</object>
-
 <section>
     <form action="get">
         <label for="drinks">Choose a brand:</label>
@@ -397,11 +389,51 @@
     <div class="container">
     
     <h2>Sign Up </h2>
-    <form action="">
 
+    <form action="#" method="get" enctype="multipart/form-data">
 
+       <div class="wrapper">
 
+          <label for="first-name">First Name</label>
 
+           <input type="text" placeholder="type your first name" name="first_name" id="first-name" class="first-name" > <br><br>
+
+           <label for="last-name">Last Name</label>
+
+           <input type="text" placeholder="type your last name" name="last_name" id="first-name" class="first-name" >
+           <br><br>
+
+           <label for="email">Email address:</label>
+
+           <input type="email" placeholder="type your email address" name="email" id="first-name" class="first-name" >
+           <br><br>
+
+           <label for="email">Password:</label>
+
+           <input type="password" placeholder="type your Password " name="email" id="first-name" class="first-name" >
+
+           <br><br>
+
+           <label for="gender">Gender:</label>
+
+           <input type="radio" value="Male" name="gender"> <span>Male</span>
+           <input type="radio" value="Female" name="gender"><span>Female</span>
+            <br><br>
+
+            <label for="">Educational Qualification</label>
+            <input type="checkbox"> <span>SSC</span>
+            <input type="checkbox"> <span>HSC</span>
+            <input type="checkbox"> <span>Graduate</span>
+            <br><br>
+            <label for="">Your Massage:</label>
+                 <br>
+            <textarea name="" id="" cols="72" rows="12" placeholder="type your message here" id="massege" class="massage"></textarea>
+            <br><br>
+           
+            <button class="link-button" type="submit">Submit</button>
+            <button class="link-button" type="reset">reset me</button>
+
+       </div>
 
     </form>
 
